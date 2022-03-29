@@ -5,10 +5,16 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "link": "npm run link:prod",
+    "link:dev": "./link.sh dev",
+    "link:prod": "./link.sh prod"
   },
   "dependencies": {
+    "@polymer/polymer": "^3.4.1",
+    "happy-dom": "^1.10.4",
     "next": "9.5.5",
+    "next-transpile-modules": "^4.1.0",
     "react": "16.14.0",
     "react-dom": "16.14.0"
   }
